@@ -15,7 +15,7 @@ Seu trabalho será reimplementar esta função. Note que a série acima é infin
 !!! example
     Abra o arquivo *solucao-t1.c* e modifique-o para passar nos testes. Para isto basta compilar o programa com as instruções abaixo e executá-lo.
 
-    `gcc -Og -Wall solucao-t1.c testes-t1.c -o testes-t1 -lsystemd`
+    `gcc -Og -Wall solucao.c testes.c -o testes-t1 -lsystemd`
 
 
 ## Tarefa 2
@@ -33,7 +33,7 @@ $$
 !!! example
     Abra o arquivo *solucao-t2.c* e modifique-o para passar nos testes. Para isto basta compilar o programa com as instruções abaixo e executá-lo.
 
-    `gcc -Og -Wall solucao-t2.c testes-t2.c -o testes-t2 -lsystemd`
+    `gcc -Og -Wall solucao.c testes.c -o testes-t2 -lsystemd`
 
 ## Tarefa 3
 **(Adaptado de questão de prova)** A média móvel dos últimos 7 dias está sendo muito usada na análise de casos de COVID-19 para determinar se uma região tem tendência de subida ou descida. Vamos fazer implementações simples desse cálculo em CPU e GPU. Você deverá levar em conta o seguinte:
@@ -47,8 +47,4 @@ $$
 !!! example
     Abra o arquivo *solucao-t3.c* e modifique-o para passar nos testes. Para isto basta compilar o programa com as instruções abaixo e executá-lo.
 
-    `gcc -Og -Wall solucao-t3.c testes-t3.c -o testes-t3 -lsystemd`
-
-## Tarefa 4
-**(Para discussão na próxima sessão)** Um método simples de 
-
+    `gcc -Og -Wall solucao.c testes.c -o testes-t3 -lsystemd`

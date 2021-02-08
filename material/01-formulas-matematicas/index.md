@@ -15,7 +15,7 @@ Seu trabalho será reimplementar esta função. Note que a série acima é infin
 !!! example
     Abra o arquivo *solucao-t1.c* e modifique-o para passar nos testes. Para isto basta compilar o programa com as instruções abaixo e executá-lo.
 
-    `gcc -Og -Wall solucao.c testes.c -o testes-t1 -lsystemd`
+    `gcc -Og -Wall solucao.c testes.c -o testes-t1 -lsystemd -lm`
 
 
 ## Tarefa 2

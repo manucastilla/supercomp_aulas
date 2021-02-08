@@ -42,7 +42,7 @@ $$
 2. as séries divulgadas se iniciam no primeiro dia em que foram registrados casos de COVID.
 
 
-Dada uma série de números $x$, a média móvel dos últimos $D$ dias é uma nova série $y% que segue a fórmula abaixo. 
+Dada uma série de números $x$, a média móvel dos últimos $D$ dias é uma nova série $y$ que segue a fórmula abaixo. 
 
 $$
 y_i = \frac{1}{D} \sum_{k=0}^D x_{i - k}

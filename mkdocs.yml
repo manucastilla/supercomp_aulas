@@ -1,0 +1,72 @@
+site_name: Programa DELTA 7o semestre - Algoritmos
+site_author: Igor Montagner
+
+extra:
+    materia:  Programa DELTA 7o semestre - Algoritmos
+    professor: Igor Montagner
+    semestre: 2021/1
+
+theme:
+  feature:
+    tabs: true
+  name: 'material'
+  palette:
+    scheme: preference
+    primary: brown
+    accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+  custom_dir: 'custom_theme'
+
+docs_dir: material
+site_dir: docs
+
+
+
+nav:
+    - Home: index.md
+
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML
+    - translate-admonitions.js
+
+extra_css:
+    - css/printing.css
+
+markdown_extensions:
+  - markdown.extensions.tables
+  - tables
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path: code
+      check_paths: true
+plugins:
+    - search

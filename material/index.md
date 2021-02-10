@@ -12,6 +12,6 @@ Os temas de cada dia estão listados abaixo. No último dia faremos uma nova DEL
 
 1. [Fórmulas matemáticas](01-formulas-matematicas)
 2. [Problemas com vetores](02-problemas-com-vetores)
-3. TBD
+3. [Matrizes](03-matrizes)
 4. TBD
 5. Exercícios livres

@@ -36,17 +36,13 @@ $$
     `gcc -Og -Wall solucao.c testes.c -o testes-t2 -lsystemd`
 
 ## Tarefa 3
-**(Adaptado de questão de prova)** A média móvel dos últimos 7 dias está sendo muito usada na análise de casos de COVID-19 para determinar se uma região tem tendência de subida ou descida. Vamos fazer implementações simples desse cálculo em CPU e GPU. Você deverá levar em conta o seguinte:
-
-1. se não houve coleta de dados em um dia, ele deverá ser considerado como tendo 0 casos
-2. as séries divulgadas se iniciam no primeiro dia em que foram registrados casos de COVID.
-
-
-Dada uma série de números $x$, a média móvel dos últimos $D$ dias é uma nova série $y$ que segue a fórmula abaixo. 
+**(Adaptado de questão de prova)** A média móvel dos últimos 7 dias está sendo muito usada na análise de casos de COVID-19 para determinar se uma região tem tendência de subida ou descida. Dada uma série de números $x$, a média móvel dos últimos $D$ dias é uma nova série $y$ que segue a fórmula abaixo. 
 
 $$
-y_i = \frac{1}{D} \sum_{k=0}^D x_{i - k}
+y_i = \frac{1}{D} \sum_{k=0}^D x_{(i - k)}
 $$
+
+Para os valores de $i < 0$, considere que $x_i = 0$.
 
 Note que tanto $x$ quanto $y$ tem a mesma quantidade de dias $N$, mas cada elemento de $y$ é uma média dos $D$ elementos anteriores de $x$.
 

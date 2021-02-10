@@ -137,4 +137,6 @@ int main() {
 
 
     printSummary
+
+    #include "../../telemetry.c"
 }
